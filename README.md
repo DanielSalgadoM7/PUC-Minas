@@ -1,5 +1,7 @@
 # PUC-Minas
-Repositório utilizado para as matérias realizadas na graduação do curso de Ciência da Computação
+Repositório utilizado para as matérias realizadas na graduação do curso de Ciência da Computação.
+
+O informativo abaixo indicará o percurso feito pelos semestres, incuindo link para os repositórios em que adicionei meus trabalhos feitos enquanto cursava a matéria.
 
 ## 1° Semestre
 - [Algoritmos e Estruturas de Dados 1](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Algoritmos%20e%20Estruturas%20de%20Dados%201)
