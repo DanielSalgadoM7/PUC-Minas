@@ -7,7 +7,7 @@ Repositório utilizado para as matérias realizadas na graduação do curso de C
 - Introdução à Computação
 - Laboratório de Iniciação à Programação
 - Filosofia Razão e Modernidade
-- Trabalho Interdisciplinar I - Front End <a href=https://github.com/DanielSalgadoM7/TI1-MovieSync></a>
+* [Trabalho Interdisciplinar I - Front End](#https://github.com/DanielSalgadoM7/TI1-MovieSync)
 
 ## 2° Semestre
 - Algoritmos e Estruturas de Dados 2
