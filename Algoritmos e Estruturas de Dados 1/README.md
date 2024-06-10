@@ -1,7 +1,13 @@
 # AEDS-1
-Repositório para projetos utilizados nas aulas de AEDS 1
+Repositório para projetos utilizados nas aulas de AEDS 1, que ensina
 
-Todos os pedidos que o problema solicita estão escritos antes do código, como uma anotação.
+- Conceitos Básicos
+- Estruturas de Controle
+- Arranjos
+- Modularização
+- Arquivos e Strings
+- Structs
+- Introdução à Orientação a Objetos
 
 <img src = "https://static.wikia.nocookie.net/hollowknight/images/1/15/Screenshot_HK_Nailsmith_04.png/revision/latest/scale-to-width-down/1000?cb=20230719130027&path-prefix=pt">
 
