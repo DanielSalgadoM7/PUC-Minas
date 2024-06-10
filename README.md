@@ -21,7 +21,7 @@ O informativo abaixo indicará o percurso feito pelos semestres, incuindo link p
 ## 3° Semestre
 - Algoritmos e Estruturas de Dados 3
 - Cálculo 2
-- [Arquitetura de Computadores 2](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/ArquiteturaDeComputadores2)
+- [Arquitetura de Computadores 2](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Arquitetura%20de%20Computadores%202)
 - Banco de Dados
 - Linguagem de Programação
 - Trabalho Interdisciplinar III - Pesquisa Aplicada
