@@ -1,1 +1,1 @@
-
+O Trabalho Prático 1 consiste em uma revisão dos conteúdos aprendidos na disciplina de Algoritmos e Estruturas de Dados 1, absorvendo a forma de estrutura dos códigos na linguagem de Java, que será trabalhada ao longo do semestre.
