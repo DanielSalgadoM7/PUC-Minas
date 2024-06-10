@@ -1,5 +1,5 @@
 # Arquitetura-1
-Repositório para projetos utilizados nas aulas de Arquitetura de Computadores 1
+Repositório para projetos utilizados nas aulas de Arquitetura de Computadores 1 
 
 Link para explicação do projeto final: https://youtu.be/z5WwWpGWlGs
 
