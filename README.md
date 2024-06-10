@@ -13,7 +13,7 @@ O informativo abaixo indicará o percurso feito pelos semestres, incuindo link p
 
 ## 2° Semestre
 - [Algoritmos e Estruturas de Dados 2](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Algoritmos%20e%20Estruturas%20de%20Dados%202)
-- [Arquitetura de Computadores 1](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/ArquiteturaDeComputadores)
+- [Arquitetura de Computadores 1](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Arquitetura%20de%20Computadores%201)
 - Engenharia de Software 1
 - Cultura Religiosa: Fenômeno Religioso
 - [Trabalho Interdisciplinar II - Back End](https://github.com/DanielSalgadoM7/TI2-Perifinder)
