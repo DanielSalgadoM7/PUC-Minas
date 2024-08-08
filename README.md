@@ -9,6 +9,7 @@ O informativo abaixo indicará o percurso feito pelos semestres, incuindo link p
 - Introdução à Computação
 - Laboratório de Iniciação à Programação
 - Filosofia Razão e Modernidade
+- [Desenvolvimento de Interfaces Web](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Desenvolvimento%20de%20Interfaces%20Web)
 - [Trabalho Interdisciplinar I - Front End](https://github.com/DanielSalgadoM7/TI1-MovieSync)
 
 ## 2° Semestre
@@ -19,7 +20,7 @@ O informativo abaixo indicará o percurso feito pelos semestres, incuindo link p
 - [Trabalho Interdisciplinar II - Back End](https://github.com/DanielSalgadoM7/TI2-Perifinder)
 
 ## 3° Semestre
-- Algoritmos e Estruturas de Dados 3
+- [Algoritmos e Estruturas de Dados 3](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Algoritmos%20e%20Estruturas%20de%20Dados%203)
 - Cálculo 2
 - [Arquitetura de Computadores 2](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Arquitetura%20de%20Computadores%202)
 - Banco de Dados
@@ -27,7 +28,13 @@ O informativo abaixo indicará o percurso feito pelos semestres, incuindo link p
 - [Trabalho Interdisciplinar III - Pesquisa Aplicada](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Trabalho%20Interdisciplinar%20III%20-%20Pesquisa%20Aplicada)
 
 ## 4° Semestre
-Trabalho Interdisciplinar IV
+- Estatística e Probabilidade
+- Modelagem e Avaliação de Desempenho
+- [Laboratório de Desenvolvimento de Dispositivos Móveis](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Laborat%C3%B3rio%20de%20Desenvolvimento%20para%20Dispositivos%20M%C3%B3veis)
+- [Teoria dos Grafos e Computabilidade](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Teoria%20dos%20Grafos%20e%20Computabilidade)
+- Inteligência Articial
+- Optativa II - Psicologia do Consumo
+- Trabalho Interdisciplinar IV
 
 ## 5° Semestre
 Trabalho Interdisciplinar V
