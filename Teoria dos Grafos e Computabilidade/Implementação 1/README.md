@@ -6,7 +6,6 @@ Implemente em C++:
 4) Implementação de uma matriz de inteiros 
 
 Aplicação: 
-
 a) Realizar a inclusão de n elementos nas estruturas
 <br>
 b) Identificar se um elemento específico está nas estruturas
