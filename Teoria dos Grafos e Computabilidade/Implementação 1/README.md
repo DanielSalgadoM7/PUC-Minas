@@ -7,8 +7,10 @@ Implemente em C++:
 
 Aplicação: 
 
-a) Realizar a inclusão de n elementos nas estruturas 
-b) Identificar se um elemento específico está nas estruturas 
+a) Realizar a inclusão de n elementos nas estruturas
+<br>
+b) Identificar se um elemento específico está nas estruturas
+<br>
 c) Remover k elementos das estruturas 
 
 Entregar o código fonte e uma documentação, em .tex, explicando o que foi feito. 
