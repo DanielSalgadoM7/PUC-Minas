@@ -1,105 +1,94 @@
 #include <iostream>
 #include <vector>
-#include <bitset>
-#include <cmath> // Para usar a função pow
+#include <cmath>
 
 using namespace std;
 
-// função para calcular o fatorial, pra usar naquele calculo de máximo de arestas
-int fatorial(int num) {
-    int resultado = 1;
-    for (int i = 1; i <= num; i++) {
-        resultado *= i;
+// Funcao para imprimir o conjunto de vertices
+void printVertices(const vector<int>& vertices) {
+    cout << "Vertices: { ";
+    for (size_t i = 0; i < vertices.size(); ++i) {
+        cout << vertices[i];
+        if (i < vertices.size() - 1) cout << ", ";
     }
-    return resultado;
+    cout << " }";
 }
 
-// função para calcular o número total de subgrafos possíveis com uma quantidade X de vértice
-int calculaSubgrafo(int vertice) {
-    int binomial = 0;
-    int resultado = 0;
-    for (int i = 1; i <= vertice; i++) {
-        binomial = (fatorial(vertice) / (fatorial(i) * fatorial(vertice - i)));
-        resultado += pow(2, (i * (i - 1) / 2)) * binomial;
+// Funcao para imprimir o conjunto de arestas
+void printArestas(const vector<pair<int, int>>& edges) {
+    if (edges.empty()) {
+        cout << " Arestas: { }";
+        return;
     }
-
-    return resultado;
+    cout << " Arestas: { ";
+    for (size_t i = 0; i < edges.size(); ++i) {
+        cout << "(" << edges[i].first << ", " << edges[i].second << ")";
+        if (i < edges.size() - 1) cout << ", ";
+    }
+    cout << " }";
 }
 
-// função para imprimir o subgrafo
-void imprimeSubgrafo(const vector<int>& vertices, const vector<pair<int, int>>& arestas) {
-    cout << "Subgrafo com vértices: ";
-    for (int v : vertices) {
-        cout << v << " ";
-    }
-    cout << "\nArestas: ";
-    for (const auto& aresta : arestas) {
-        cout << "(" << aresta.first << ", " << aresta.second << ") ";
-    }
-    cout << "\n";
-}
-
-// função para gerar todas as combinações de arestas para um subconjunto de vértices
-void geraCombinacoesDeArestas(const vector<int>& vertices, int& totalSubgrafos) {
-    int numVertices = vertices.size();
-    int totalArestas = (numVertices * (numVertices - 1)) / 2;
-
-    // Gerar todas as combinações possíveis de arestas
-    for (int mascara = 0; mascara < (1 << totalArestas); ++mascara) {
-        vector<pair<int, int>> arestas;
-        int indiceAresta = 0;
-
-        // Combinações de pares de vértices
-        for (size_t i = 0; i < numVertices; ++i) {
-            for (size_t j = i + 1; j < numVertices; ++j) {
-                if (mascara & (1 << indiceAresta)) {
-                    arestas.emplace_back(vertices[i], vertices[j]);
-                }
-                indiceAresta++;
-            }
-        }
-
-        // Imprimir o subgrafo atual
-        imprimeSubgrafo(vertices, arestas);
-        ++totalSubgrafos;
-    }
-}
-
-// função para gerar todos os subgrafos de um grafo completo
-void geraSubgrafos(int n) {
+// Funcao para gerar todos os subgrafos
+void gerarSubgrafos(int n) {
     int totalSubgrafos = 0;
+    int vertexSubsets = pow(2, n);
 
-    // Iterar sobre todos os subconjuntos de vértices
-    for (int mascara = 1; mascara < (1 << n); ++mascara) {  // Começar de 1 para evitar o subconjunto vazio
+    // Itera por todos os subconjuntos de vertices (excluindo o conjunto vazio)
+    for (int vertice_masc = 1; vertice_masc < vertexSubsets; ++vertice_masc) {
         vector<int> vertices;
 
-        // Determinar os vértices no subconjunto atual
+        // Identifica quais vertices estao no subconjunto atual
         for (int i = 0; i < n; ++i) {
-            if (mascara & (1 << i)) {
-                vertices.push_back(i + 1); // Considerando vértices 1-indexados
+            if (vertice_masc & (1 << i)) {
+                vertices.push_back(i + 1);
             }
         }
 
-        // Gerar todas as combinações de arestas para os vértices atuais
-        geraCombinacoesDeArestas(vertices, totalSubgrafos);
+        int k = vertices.size();
+        int totalArestasPossivel = k * (k - 1) / 2;
+        int totalEdgeSubsets = pow(2, totalArestasPossivel);
+
+        // Mapeia cada par de vertices para uma posicao para geracao de arestas
+        vector<pair<int, int>> possiveisAresta;
+        for (int i = 0; i < k; ++i) {
+            for (int j = i + 1; j < k; ++j) {
+                possiveisAresta.push_back({vertices[i], vertices[j]});
+            }
+        }
+
+        // Itera por todos os subconjuntos de arestas
+        for (int e_mask = 0; e_mask < totalEdgeSubsets; ++e_mask) {
+            vector<pair<int, int>> edges;
+
+            for (int idx = 0; idx < totalArestasPossivel; ++idx) {
+                if (e_mask & (1 << idx)) {
+                    edges.push_back(possiveisAresta[idx]);
+                }
+            }
+
+            // Exibe o subgrafo atual
+            printVertices(vertices);
+            printArestas(edges);
+            cout << endl;
+            totalSubgrafos++;
+        }
     }
 
-    cout << "Número total de subgrafos gerados: " << totalSubgrafos << endl;
-
+    cout << "\nNumero total de subgrafos gerados: " << totalSubgrafos << endl;
 }
 
 int main() {
-    int vertice;
+    int n;
 
-    cout << "Informe o número de vértices no grafo completo: ";
-    cin >> vertice;
+    cout << "Informe o numero de vertices do grafo completo: ";
+    cin >> n;
 
-    while (vertice <= 0) {
-        cout << "Número de vértices deve ser positivo." << endl;
-        cin >> vertice;
+    if (n <= 0) {
+        cout << "O numero de vertices deve ser maior que 0." << endl;
+        return 1;
     }
 
-    geraSubgrafos(vertice);
+    gerarSubgrafos(n);
 
     return 0;
 }
