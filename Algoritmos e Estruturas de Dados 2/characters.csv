@@ -1,4 +1,4 @@
-﻿id;name;alternate_names;house;ancestry;species;patronus;hogwartsStaff;hogwartsStudent;actorName;alive;alternate_actors;dateOfBirth;yearOfBirth;eyeColour;gender;hairColour;wizard
+﻿id;name;alternate_names;house;ancestry;species;patronus;hogwartsStaff;hogwartsStudent;actorName;alive;alternate_actors;dateOfBirth;yearOfBirth;eyeColour;gender;hairColour;wizard 
 9e3f7ce4-b9a7-4244-b709-dae5c1f1d4a8;Harry Potter;['The Boy Who Lived', 'The Chosen One', 'Undesirable No. 1', 'Potty'];Gryffindor;half-blood;human;stag;FALSO;VERDADEIRO;Daniel Radcliffe;VERDADEIRO;[];31-7-1980;1980;green;male;black;VERDADEIRO
 4c7e6819-a91a-45b2-a454-f931e4a7cce3;Hermione Granger;['Hermy', 'Know-it-all', 'Miss Grant', 'Herm-own-ninny'];Gryffindor;muggleborn;human;otter;FALSO;VERDADEIRO;Emma Watson;VERDADEIRO;[];19-09-1979;1979;brown;female;brown;VERDADEIRO
 c3b1f9a5-b87b-48bf-b00d-95b093ea6390;Ron Weasley;['Dragomir Despard', 'Ronald', 'Ickle Ronniekins', 'Ronnie', 'Wheezy', 'Won-Won', 'Roonil Wazlib'];Gryffindor;pure-blood;human;Jack Russell terrier;FALSO;VERDADEIRO;Rupert Grint;VERDADEIRO;[];01-03-1980;1980;blue;male;red;VERDADEIRO
