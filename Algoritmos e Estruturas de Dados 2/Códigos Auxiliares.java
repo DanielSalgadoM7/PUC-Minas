@@ -1,4 +1,4 @@
-public class Auxiliares {
+public class Auxiliares { 
   public static void main(String[] args){
 
     class Celula {
