@@ -1,4 +1,4 @@
-/*No ano de 2020 o Papai Noel não poderá sair de casa para entregar presentes por conta da pandemia do Coronavirus. 
+/*No ano de 2020 o Papai Noel não poderá sair de casa para entregar presentes por conta da pandemia do Coronavirus.  
 Então ele ordenou que seus duendes fossem entregar no lugar dele no dia do natal. 
 Como eles são bastante inexperientes, irão se dividir em vários times compostos de três membros: 
 Um líder, um entregador e um piloto de trenó. O plano do Papai Noel é que os líderes das equipes seja sempre os duendes 
