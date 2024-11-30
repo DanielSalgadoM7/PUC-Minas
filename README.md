@@ -30,7 +30,7 @@ O informativo abaixo indicará o percurso feito pelos semestres, incuindo link p
 ## 4° Semestre
 - Estatística e Probabilidade
 - Modelagem e Avaliação de Desempenho
-- [Laboratório de Desenvolvimento de Dispositivos Móveis](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Laborat%C3%B3rio%20de%20Desenvolvimento%20para%20Dispositivos%20M%C3%B3veis)
+- [Laboratório de Desenvolvimento de Dispositivos Móveis](https://github.com/DanielSalgadoM7/RecipeWise)
 - [Teoria dos Grafos e Computabilidade](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Teoria%20dos%20Grafos%20e%20Computabilidade)
 - [Inteligência Articial](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Intelig%C3%AAncia%20Artificial)
 - Optativa II - Psicologia do Consumo
