@@ -34,7 +34,7 @@ O informativo abaixo indicará o percurso feito pelos semestres, incuindo link p
 - [Teoria dos Grafos e Computabilidade](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Teoria%20dos%20Grafos%20e%20Computabilidade)
 - [Inteligência Articial](https://github.com/DanielSalgadoM7/PUC-Minas/tree/main/Intelig%C3%AAncia%20Artificial)
 - Optativa II - Psicologia do Consumo
-- Trabalho Interdisciplinar IV
+- [Trabalho Interdisciplinar IV](https://github.com/DanielSalgadoM7/TI4-SunWukongRCC)
 
 ## 5° Semestre
 Trabalho Interdisciplinar V
