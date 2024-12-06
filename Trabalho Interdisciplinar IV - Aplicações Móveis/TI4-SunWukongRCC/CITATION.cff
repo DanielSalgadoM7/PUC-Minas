@@ -1,0 +1,39 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Sun Wukong Revolta Contra os Céus
+authors:
+  - family-names: Niess Ferreira
+    given-names: Alexandre Augusto
+  - family-names: Mendes Rodrigues
+    given-names: Andre 
+  - family-names: Medeiros Oliveira
+    given-names: Arthur Martinho
+  - family-names: Gomes Alcântara Glória
+    given-names: Caio 
+  - family-names: Salgado Magalhães
+    given-names: Daniel 
+  - family-names: Maluf Araujo
+    given-names: Rafael 
+  - family-names: Correia Pedrosa
+    given-names: Samuel 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Martins Mol
+    given-names: Artur 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Neves Rodrigues
+    given-names: Cristiano 
+keywords:
+  - Educação
+  - Unity
+  - Sun Wukong
+  - Game 2D
+  - GameDesign
+  - IA
+  - Grafos procedurais
+
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-ti4-2024-2-g02-sunwukong-rcc
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-11-29
