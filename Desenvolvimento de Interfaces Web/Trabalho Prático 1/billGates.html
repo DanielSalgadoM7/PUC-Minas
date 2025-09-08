@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/styles.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Serializando - O futuro de Bill Gates</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Main content */
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            padding: 20px;
+        }
+
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            width: 100%;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            flex-direction: column;
+        }
+
+        .poster-info {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .poster {
+            flex: 1;
+            max-width: 400px;
+            margin-right: 20px;
+        }
+
+        .poster img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .details {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .details h2 {
+            margin-top: 0;
+        }
+
+        .btn-add {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #465563;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: flex-start;
+        }
+
+        /* Grid Elenco */
+        .elenco-grid {
+            margin-top: 20px; /* Ajuste o valor conforme necessário */
+        }
+
+        .elenco-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .elenco-photos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .elenco-item {
+            text-align: center;
+        }
+
+        .elenco-item img {
+            width: 150px;  /* Largura fixa */
+            height: 200px; /* Altura fixa */
+            object-fit: cover; /* Mantém o aspecto de corte adequado */
+            border-radius: 10px;
+        }
+
+        .elenco-item p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .temporadas-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .temporadas-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .temporada {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .temporada h4 {
+            margin-bottom: 10px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .poster-info {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .poster {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .details {
+                text-align: left;
+            }
+        }
+
+        /* Ajustar margens nos grids de elenco e temporadas */
+        .elenco-grid {
+            margin-top: 20px; /* Ajuste para um valor menor se necessário */
+        }
+
+        .temporadas-grid {
+            margin-top: 20px; /* Ajuste para um valor menor se necessário */
+        }
+
+        /* Remover margens indesejadas do footer */
+        footer {
+            margin-top: 0; /* Certifique-se de que não haja margens no topo do footer */
+        }
+
+        /* Ajustar o preenchimento do footer se necessário */
+        footer .text-center {
+            padding: 10px 0; /* Ajuste o preenchimento para um valor adequado */
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- BARRA -->
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a href="index.html" target="_blank">
+                    <img src="img/logoSerializando.png" alt="Serializando" style="width: 80px; height: auto;">
+                </a>                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#SériesPopulares">Séries Populares |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Novas Séries">Novas Séries |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#infoPessoal">Informações sobre mim |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#minhasSeries">Minhas Séries</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar filme"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+        <div class="content-container">
+            <!-- Poster e Informações -->
+            <div class="poster-info">
+                <div class="poster">
+                    <img src="img/cartaz_billGates.jpg" alt="Cartaz da Série">
+                </div>
+                <div class="details">
+                    <h2>O futuro de Bill Gates</h2>
+                    <p><strong>Gênero:</strong> Documentário</p>
+                    <p><strong>Data de Lançamento:</strong> 18 de setembro de 2024</p>
+                    <p><strong>Descrição:</strong> O visionário e filantropo Bill Gates fala de temas globais importantes e mostra as tecnologias de ponta que vão mudar o mundo.</p>
+                    <p><strong>Plataforma de Exibição:</strong> Netflix</p>
+                    <p><strong>Avaliação dos usuários:</strong> 45%</p>
+                    <button class="btn-add">Adicionar à Minhas Séries</button>
+                </div>
+            </div>
+
+            <!--Elenco-->
+            <div class="container">
+                <h2 class="elenco" id="elenco">Elenco</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!-- Primeira pessoa -->
+                    <div class="col-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/billGatesFoto.jpg" class="card-img-top" alt="Bill Gates" style="cursor: pointer; height: 300px; object-fit: cover;">
+                            <div class="card-body">
+                                <p class="card-text"><b>Bill Gates</b></p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Segunda pessoa -->
+                    <div class="col-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/antonhyFauciFoto.jpg" class="card-img-top" alt="Antonhy Fauci" style="cursor: pointer; height: 300px; object-fit: cover;">
+                            <div class="card-body">
+                                <p class="card-text"><b>Anthony Fauci</b></p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Terceira pessoa -->
+                    <div class="col-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/andersonCooperFoto.jpg" class="card-img-top" alt="Anderson Cooper" style="cursor: pointer; height: 300px; object-fit: cover;">
+                            <div class="card-body">
+                                <p class="card-text"><b>Anderson Cooper</b></p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Quarta pessoa -->
+                    <div class="col-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/thomasFriedmanFoto.jpeg" class="card-img-top" alt="Thomas Friedman" style="cursor: pointer; height: 300px; object-fit: cover;">
+                            <div class="card-body">
+                                <p class="card-text"><b>Thomas Friedman</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!--Temporadas-->
+             <div class="container">
+                <h2 class="temporadas" id="temporadas">Temporadas</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!-- Primeira temporada -->
+                    <div class="col-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/cartaz_billGates.jpg" class="card-img-top" alt="Temporada 1" style="cursor: pointer; height: 400px; object-fit: cover;">
+                            <div class="card-body">
+                                <p class="card-text"><b>Temporada 1</b></p>
+                                <p class="card-text"><b>Data de lançamento: 18 de setembro de 2024</b></p>
+                                <p class="card-text"><b>5 episódios</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="text-center p-3" style="background-color: #942b2b;">
+            <p class="footertext">© 2024/2 Copyright: Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

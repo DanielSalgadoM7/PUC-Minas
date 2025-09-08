@@ -1,0 +1,571 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.43f1 (85497d293fa1) revision 8735101'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'pt' Physical Memory: 32610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\CriacaoJogoDeJogar\2022.3.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/faculdade/CC_PUC/TI4/Atividades/Exercicio1/ExercicioSalgado
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55691
+Successfully changed project path to: E:/faculdade/CC_PUC/TI4/Atividades/Exercicio1/ExercicioSalgado
+E:/faculdade/CC_PUC/TI4/Atividades/Exercicio1/ExercicioSalgado
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19652]  Target information:
+
+Player connection [19652]  * "[IP] 26.179.113.237 [Port] 0 [Flags] 2 [Guid] 70965465 [EditorId] 70965465 [Version] 1048832 [Id] WindowsEditor(7,CaioPCS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19652]  * "[IP] 192.168.0.42 [Port] 0 [Flags] 2 [Guid] 70965465 [EditorId] 70965465 [Version] 1048832 [Id] WindowsEditor(7,CaioPCS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1 (85497d293fa1)
+[Subsystems] Discovering subsystems at path E:/CriacaoJogoDeJogar/2022.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/faculdade/CC_PUC/TI4/Atividades/Exercicio1/ExercicioSalgado/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'E:/CriacaoJogoDeJogar/2022.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'E:/CriacaoJogoDeJogar/2022.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/CriacaoJogoDeJogar/2022.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/CriacaoJogoDeJogar/2022.3.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/CriacaoJogoDeJogar/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002940 seconds.
+- Loaded All Assemblies, in  0.257 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.181 seconds
+Domain Reload Profiling: 438ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (182ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (149ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.436 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.390 seconds
+Domain Reload Profiling: 827ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (391ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3555.
+Memory consumption went from 118.0 MB to 118.0 MB.
+Total: 2.005700 ms (FindLiveObjects: 0.170600 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.709200 ms  DeleteObjects: 0.059800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11086.509608 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.002325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 73.047104 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(828f7aaad72afc940ac2e857d84373d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(828f7aaad72afc940ac2e857d84373d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efda7e9f208f2f685c3c9f561a4c59c8') in 0.012264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.294677 seconds.
+  path: Assets/TerrainData_0b554819-e688-4450-9b50-c19fb43e2381.asset
+  artifactKey: Guid(1177cb572a49a0344a114c1cce99aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0b554819-e688-4450-9b50-c19fb43e2381.asset using Guid(1177cb572a49a0344a114c1cce99aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b9b3dc31eff1685f992597726848d3ca') in 0.003921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.861789 seconds.
+  path: Assets/main.unity
+  artifactKey: Guid(9f074eaa5302c08449c695836ce8f571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/main.unity using Guid(9f074eaa5302c08449c695836ce8f571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55ff199f3c827e894c1eb6e28820c322') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.068823 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(828f7aaad72afc940ac2e857d84373d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(828f7aaad72afc940ac2e857d84373d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c2aaf7220970423ebe2d25b47a82a51') in 0.004159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.430200 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(6d4539788ed190f4eacc3403b340e58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(6d4539788ed190f4eacc3403b340e58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea26c863847579c211474f572daaa611') in 0.003618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 246.875985 seconds.
+  path: Assets/Cidades
+  artifactKey: Guid(8d8b5848156b7b846a9dbc95279f6c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidades using Guid(8d8b5848156b7b846a9dbc95279f6c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab53c2acdd58ba44c77cf27a8b2062e5') in 0.000787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 71.733355 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(6d4539788ed190f4eacc3403b340e58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(6d4539788ed190f4eacc3403b340e58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f48857e3cbd6248b4090102b9f69506d') in 0.004172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.476067 seconds.
+  path: Assets/Versatile Studio Assets
+  artifactKey: Guid(0c10d9630644c9f45b4dd4f488c7b7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets using Guid(0c10d9630644c9f45b4dd4f488c7b7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4e00a9dedd098b0186c5fb6c9adfa34') in 0.000450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.902756 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio
+  artifactKey: Guid(136ed8b9f4b50e4459db536a02f0f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio using Guid(136ed8b9f4b50e4459db536a02f0f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8233993c3b66503ed5f10a72218ed69') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.432359 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs
+  artifactKey: Guid(21debe0e76f139d41a718487ccd5d4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs using Guid(21debe0e76f139d41a718487ccd5d4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be6d1f9385e84abf154b6052595dee1e') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036481 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/basement_big.prefab
+  artifactKey: Guid(2a006ed40b93cf842b1dc6ad5a4cd5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/basement_big.prefab using Guid(2a006ed40b93cf842b1dc6ad5a4cd5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '211b4c833b0846f2d4b24af5954adb98') in 0.511582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_small.prefab
+  artifactKey: Guid(7961d5d64350968438e53e5349630794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_small.prefab using Guid(7961d5d64350968438e53e5349630794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39e1de1ccfd3bf5cce0c7a2ec857e70d') in 0.161259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/factory_building_small.prefab
+  artifactKey: Guid(0a984da1cd0ebf846ab2481ce6b77b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/factory_building_small.prefab using Guid(0a984da1cd0ebf846ab2481ce6b77b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e433bb396d8cc96769ed6bf4dfeeff92') in 0.468571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_single_orange.prefab
+  artifactKey: Guid(8dd0dd541acaff5418f32652ee44b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_single_orange.prefab using Guid(8dd0dd541acaff5418f32652ee44b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a81040b1e9c0849a1c3b353e5caeb8cb') in 0.008745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_2.prefab
+  artifactKey: Guid(b0f4bfab0bbc4714d90f5a03e7be3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_2.prefab using Guid(b0f4bfab0bbc4714d90f5a03e7be3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '21699853c194ae2ea1bd087bb94c6778') in 0.022730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_single_white.prefab
+  artifactKey: Guid(adce9d3aecc806e4291b160d931e27a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_single_white.prefab using Guid(adce9d3aecc806e4291b160d931e27a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2ec0cfce414f01da3c31dd853fbe418') in 0.007884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/building_lamp_pink.prefab
+  artifactKey: Guid(93b05a0f824ba8748ac94e3c3ed9332e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/building_lamp_pink.prefab using Guid(93b05a0f824ba8748ac94e3c3ed9332e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1264e055845da4d3e4460e38dadfd79f') in 0.007034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_dual_white.prefab
+  artifactKey: Guid(6bb92931db12d8740845da8784562097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_dual_white.prefab using Guid(6bb92931db12d8740845da8784562097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4440b7f4f49f4a7751d7e3f42b02719f') in 0.007849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/factory_building_small_bgr.prefab
+  artifactKey: Guid(24ad189905c64de479a8a1b241bc7294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/factory_building_small_bgr.prefab using Guid(24ad189905c64de479a8a1b241bc7294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e05a3c0678ff5dc5defe18ed5fc66644') in 0.012031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_single_pink.prefab
+  artifactKey: Guid(ee320aa63aada0e44b3c3a900180121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/lamp_pole_single_pink.prefab using Guid(ee320aa63aada0e44b3c3a900180121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '311749a83e2d7fa7f5532355188cb184') in 0.006673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_2_bgr.prefab
+  artifactKey: Guid(6757f292accaf4645a20a11f84be58fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_2_bgr.prefab using Guid(6757f292accaf4645a20a11f84be58fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ac27fe841a1d4ceaa1b4ff9e3790d23') in 0.090262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/building_lamp_orange.prefab
+  artifactKey: Guid(15f5ac9ecdce3de4db7286c24974c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/building_lamp_orange.prefab using Guid(15f5ac9ecdce3de4db7286c24974c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8de9c4610dc06814947bcdcf4b5b6566') in 0.006865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_1.prefab
+  artifactKey: Guid(658e1637e781b8d4797e43c26338c9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_1.prefab using Guid(658e1637e781b8d4797e43c26338c9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9946df7c46d1eecefb8426ab7076b18') in 0.025649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_3.prefab
+  artifactKey: Guid(e55db05c354298e419fe7c1c1cb11333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_3.prefab using Guid(e55db05c354298e419fe7c1c1cb11333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71576c5af26a92cc5d5b6b0ae62227b3') in 0.018658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_1_with_base.prefab
+  artifactKey: Guid(52e2970d2b977934194c67572d53ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_1_with_base.prefab using Guid(52e2970d2b977934194c67572d53ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83c2c226d9e87a3e33f96826ece063f5') in 0.046813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/building_lamp_blue.prefab
+  artifactKey: Guid(27bd8f785b4b73940a92ff6fcf04915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/building_lamp_blue.prefab using Guid(27bd8f785b4b73940a92ff6fcf04915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2474279d7d8755f23efd215d512d4900') in 0.006541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_1_2.prefab
+  artifactKey: Guid(1539a5461c562d640b97b26fbd7bf9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_1_2.prefab using Guid(1539a5461c562d640b97b26fbd7bf9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cebb99216f305f3dcc4dcc3fe51fdb27') in 0.022002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/basement_small.prefab
+  artifactKey: Guid(46be7acb37544a048be19d11f8a64bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/basement_small.prefab using Guid(46be7acb37544a048be19d11f8a64bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17cb14311fa6bc2c1ac2e6da5a27146b') in 0.013886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_3.prefab
+  artifactKey: Guid(f4b1e6a5517783e4c8bc71ebfd683604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_3.prefab using Guid(f4b1e6a5517783e4c8bc71ebfd683604) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '40f9361671d2553c6edb030256c3f884') in 0.025307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_1.prefab
+  artifactKey: Guid(a2dd7ebabc38532429e0b24b1e4b2207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_1.prefab using Guid(a2dd7ebabc38532429e0b24b1e4b2207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f8acaa4cac388e5a158a9a886673d17f') in 0.024397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/factory_building_big_bgr.prefab
+  artifactKey: Guid(03571863373bf8641ba55aa179965d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/factory_building_big_bgr.prefab using Guid(03571863373bf8641ba55aa179965d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce101e8f8767216627a3720b5d20f33d') in 0.016547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_4.prefab
+  artifactKey: Guid(841fda1a8336ebd45a80491910c22305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/mid_house_4.prefab using Guid(841fda1a8336ebd45a80491910c22305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aaa246f1dae39c4be2e284f9df28bfb9') in 0.019981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.495225 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_3_bgr.prefab
+  artifactKey: Guid(5abd6f97766ead84397268c287892e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_3_bgr.prefab using Guid(5abd6f97766ead84397268c287892e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f25b8aa708fd4f92b21d208000e7bad') in 0.008914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/small_house_1.prefab
+  artifactKey: Guid(b0a1991bb786aa547a6667f6343c3359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/small_house_1.prefab using Guid(b0a1991bb786aa547a6667f6343c3359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e4e65bf231e1f2be3d09dae22cb728b') in 0.026442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/tree_3.prefab
+  artifactKey: Guid(192942cee9759494aa27cca32255320c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/tree_3.prefab using Guid(192942cee9759494aa27cca32255320c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61cb51760ee3793422d7e50c1438ce3d') in 0.008024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_4_with_base.prefab
+  artifactKey: Guid(b7d99e050a268a74393c5e2746a07604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_4_with_base.prefab using Guid(b7d99e050a268a74393c5e2746a07604) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1ec12e288814b79a041069d0ceb4a3d') in 0.046570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_4_bgr.prefab
+  artifactKey: Guid(44f78b98bb705704a86127ce68d48b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/office_building_4_bgr.prefab using Guid(44f78b98bb705704a86127ce68d48b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0ea4a269f36d1f8f083c33258ae660e') in 0.010323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/tree_1.prefab
+  artifactKey: Guid(f32221640a64f4e469c3209b74f1792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Versatile Studio Assets/Demo City By Versatile Studio/Prefabs/tree_1.prefab using Guid(f32221640a64f4e469c3209b74f1792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd36e014d9eb77abdab200ebdeb229d0') in 0.008538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
